@@ -8,21 +8,23 @@ import { AiFillGithub, AiOutlineGithub } from 'react-icons/ai'
 import Reveal from './Reveal';
 
 const projects = [
-  {
-    img: project1, 
-    title: "Tenant Management System",
-    description: "Designed and developed a web-based system for landlords to manage tenants.",
-    date: "July 2023 - September 2023",
-    details: [
-      "Tools & technologies used: Node.js, Express, MongoDB, React, Firebase Authentication",
-      "Built a platform for landlords to track rent payments, lease agreements, and tenant records.",
-      "Implemented role-based access control for security.",
-    ],
-    links: {
-      site: "#",
-      github: "#", 
-    },
-  },
+    {
+        img: project1, 
+        title: "TradeSystem",
+        description: "Developed a real-time stock market analysis system with live data fetching and caching.",
+        date: "March 2025 - Present",
+        details: [
+          "Tools & technologies used: Python, Flask, PostgreSQL, Angel Smart API, Git",
+          "Built a system to fetch, cache, and update live stock data for market analysis.",
+          "Implemented real-time stock price tracking and market parameter analysis for option strategies.",
+          "Created a webhook to log trades to a csv(paper trading) when a certain criteria is met as per the strategy.",
+        ],
+        links: {
+          site: "#",
+          github: "https://github.com/LuciFr01/TradeSystem", 
+        },
+    }
+    ,
     {
       img: project2, 
       title: "Chemical Plant Process Optimization Dashboard",
